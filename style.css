@@ -1,0 +1,10 @@
+:root{
+    --jet-preto: #2e3440ff;
+--charcoal-azul: #3b4252ff;
+--charcoal-azul-2: #434c5eff;
+--blue-ardosia: #4c566aff;
+
+}
+body{
+    backgraud: var(--jet-preto);
+}
