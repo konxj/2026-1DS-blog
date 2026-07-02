@@ -1,10 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montenegrin+Gothic+One&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
 :root{
     --jet-preto: #2e3440ff;
---charcoal-azul: #3b4252ff;
---charcoal-azul-2: #434c5eff;
---blue-ardosia: #4c566aff;
+    --charcoal-azul: #3b4252ff;
+    --charcoal-azul-2: #434c5eff;
+    --blue-ardosia: #4c566aff;
+    --titulo:"Montenegrin Gothic One", serif;
+    --texto:"Nunito Sans", sans-serif;
 
 }
 body{
-    backgraud: var(--jet-preto);
+    background: var(--blue-ardosia);
+    font-family: var(--texto) ;
+}
+h1{
+    font-family: var(--titulo);
 }
