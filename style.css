@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montenegrin+Gothic+One&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
-
+*{
+    margin: 0;
+    padding: 0;
+}
 :root{
     --jet-preto: #2e3440ff;
     --charcoal-azul: #3b4252ff;
@@ -13,6 +16,18 @@ body{
     background: var(--blue-ardosia);
     font-family: var(--texto) ;
 }
-h1{
-    font-family: var(--titulo);
+header{
+    background-color: var(--grafite);
+    display: flex;
+    justify-content: space-around;
+    color: var(--stormy-teal)
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 20x;
+    margin: 10px;
+    color: var(--branco);
+    text-transform: uppercase;
+    font-size: 10px;
 }
