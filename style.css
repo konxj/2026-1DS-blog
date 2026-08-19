@@ -1,33 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Montenegrin+Gothic+One&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Montenegrin+Gothic+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap&#39;');
+
+* {
     margin: 0;
     padding: 0;
-}
-:root{
-    --jet-preto: #2e3440ff;
-    --charcoal-azul: #3b4252ff;
-    --charcoal-azul-2: #434c5eff;
-    --blue-ardosia: #4c566aff;
-    --titulo:"Montenegrin Gothic One", serif;
-    --texto:"Nunito Sans", sans-serif;
 
 }
-body{
-    background: var(--blue-ardosia);
-    font-family: var(--texto) ;
+
+:root {
+    --cinza-chumbo: #463f3aff;
+    --cinza-verde: #8a817cff;
+    --prata: #bcb8b1ff;
+    --branco: #f4f3eeff;
+    --titulo: "Montenegrin Gothic One", serif;
+    --texto: "Raleway", sans-serif;
 }
-header{
-    background-color: var(--grafite);
+
+.menu a {
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: bold;
+
+}
+
+.menu a:hover {
+    color: var(--cinza-verde);
+    transition: 0.2s;
+}
+
+body {
+    background: var(--cinza-verde);
+    font-family: var(--texto);
+}
+
+header {
+    background-color: var(--cinza-chumbo);
     display: flex;
     justify-content: space-around;
-    color: var(--stormy-teal)
+    color: var(--prata);
 }
-.menu{
+
+.menu {
     display: flex;
     list-style: none;
-    gap: 20x;
+    gap: 20px;
     margin: 10px;
     color: var(--branco);
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 14px;
 }
